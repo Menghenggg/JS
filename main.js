@@ -112,4 +112,11 @@ console.log(points);
 const arrayMAx = (arr) => {
   return Math.max.apply(null, arr);
 };
+const arraymin = (arr) => {
+  return Math.min.apply(null, arr);
+};
 console.log(arrayMAx(points));
+console.log(arraymin(points));
+
+// basic awit asyn
+let me = (document.getElementById("#me").innerHTML = "hi");

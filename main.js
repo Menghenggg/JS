@@ -119,4 +119,15 @@ console.log(arrayMAx(points));
 console.log(arraymin(points));
 
 // basic awit asyn
-let me = (document.getElementById("#me").innerHTML = "hi");
+let me = document.querySelector("#me");
+let more = 0;
+
+function hi() {
+  if (more == 0) {
+    me.style.backgroundColor = "red";
+    more = 1;
+  } else {
+    me.style.backgroundColor = "black";
+    more = 0;
+  }
+}
